@@ -1,0 +1,138 @@
+
+  nav ul {
+    background-color: #eee25b;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+
+#navbar li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+ a:hover {
+  color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#welcome-section {
+  background-color: #eee25b;
+  text-align: center;
+  min-height: 55vh;
+  padding-top: 45vh;
+ 
+}
+
+#welcome-section, h1, p {
+  font-family: "Quicksand";
+}
+
+footer {
+  background-color: #5b68ee;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
+footer li {
+  padding-right: 50px;
+  list-style: none;
+}
+#projects h1 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.project-tile {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  justify-content: space-around;
+  
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+ div, button {
+ text-align: center;
+ 
+}
+
+#show-button   {
+  background-color: #5b68ee;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  
+}
+
+button:hover {
+  transform: scale(1.7);
+}
+
+footer h1 {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Quicksand";
+}
+
+#profile-link, i {
+ color: #fff;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+span {
+ 
+  font-family: "Quicksand";
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+/* media query */
+
+@media (max-width: 768px){
+  .project-tile {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 30px;
+  justify-content: space-around;
+  
+}
+}
